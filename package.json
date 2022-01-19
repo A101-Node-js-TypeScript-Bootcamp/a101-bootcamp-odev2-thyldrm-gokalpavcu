@@ -1,0 +1,26 @@
+{
+  "name": "odev2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A101-Node-js-TypeScript-Bootcamp/a101-bootcamp-odev2-thyldrm.git"
+  },
+  "author": "taha gokalp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A101-Node-js-TypeScript-Bootcamp/a101-bootcamp-odev2-thyldrm/issues"
+  },
+  "homepage": "https://github.com/A101-Node-js-TypeScript-Bootcamp/a101-bootcamp-odev2-thyldrm#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "http-status": "^1.5.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
