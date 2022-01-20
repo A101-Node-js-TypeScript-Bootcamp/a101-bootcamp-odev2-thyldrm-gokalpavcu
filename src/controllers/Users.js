@@ -1,7 +1,7 @@
 const httpStatus = require("http-status")
 const {generateAccessToken, generateRefreshToken} = require("../scripts/utils/helper");
 
-const login = (req, res) => {
+const register = (req, res) => {
     try{
         res.status(httpStatus.CREATED).send(req.body);
     }catch{
@@ -9,7 +9,7 @@ const login = (req, res) => {
     }
 }
 
-const register = (req,res) => {
+const login = (req,res) => {
     let user = {
         tokens:{
                 access_token : generateAccessToken(req.body),
