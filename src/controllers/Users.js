@@ -1,4 +1,3 @@
-const {insert,loginUser} = require("../services/Users")
 const httpStatus = require("http-status")
 const {generateAccessToken, generateRefreshToken} = require("../scripts/utils/helper");
 

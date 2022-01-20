@@ -2,14 +2,9 @@ const JWT = require("jsonwebtoken")
 
 
 const generateAccessToken = (user) => {
-    return JWT.sign(user, "ASDASDASDASDASD", { expiresIn: "1w" })
-}
-
-const generateRefreshToken = (user) => {
-    return JWT.sign(user, "ASDASDASDASDASD")
+    return JWT.sign(user, process.env.ACCESS_TOKEN_SECRET_KEY, { expiresIn: "1w" })
 }
 
 module.exports = {
     generateAccessToken,
-    generateRefreshToken
 }
