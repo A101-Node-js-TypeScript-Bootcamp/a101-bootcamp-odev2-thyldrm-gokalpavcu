@@ -40,7 +40,7 @@ Proje'de api.trendyol.com sitesinden belirli endpointler belirli kriterlere gör
 #### Veritabanı varmışçasına login similasyonu.
 
 ```http
-  GET /user/register
+  POST /user/register
 ```
 
 | Parametre | Tip     | Açıklama                |
@@ -50,7 +50,7 @@ Proje'de api.trendyol.com sitesinden belirli endpointler belirli kriterlere gör
 #### Veritabanı varmışçasına register similasyonu.
 
 ```http
-  GET /user/login
+  POST /user/login
 ```
 
 | Parametre | Tip     | Açıklama                |
